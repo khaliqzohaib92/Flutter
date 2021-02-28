@@ -29,7 +29,7 @@ class Chart extends StatelessWidget {
             0, 1), // gives us the one character letter of the week day
         'amount': totalSum,
       };
-    });
+    }).reversed.toList();
   }
 
   double get totalSpending {
